@@ -14,7 +14,7 @@ const Projects = () => {
           <ProjectCard
             src="/myportfolio.png"
             title="My Portfolio Website"
-            description="A portfolio website that I made using  NextJS,TailwindCSS,Typescript,Framer-Motion,Vercel."
+            description="A portfolio website that I made using  NextJS, TailwindCSS, Typescript, Framer-Motion, Vercel."
             githubLink="https://github.com/Aji-Rawat"
           />
           <ProjectCard

@@ -44,10 +44,10 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I'm a versatile Full Stack Developer proficient in Website, Mobile,
-          and Software development, with hands-on experience across various
-          projects. Dive into my portfolio to explore my diverse skill set and
-          impactful projects.
+          I&apos;m a versatile Full Stack Developer proficient in Website,
+          Mobile, and Software development, with hands-on experience across
+          various projects. Dive into my portfolio to explore my diverse skill
+          set and impactful projects.
         </motion.p>
         <motion.a
           variants={slideInFromLeft(5)}

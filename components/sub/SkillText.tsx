@@ -17,7 +17,7 @@ const SkillText = () => {
       >
         <SparklesIcon className="text-[#dad1f5] mr-[10px] h-8 w-8" />
         <h1 className="Welcome-text text-3xl text-[18px]">
-          Building tomorrow's technology, today.
+          Building tomorrow&apos;s technology, today.
         </h1>
       </motion.div>
 
@@ -32,7 +32,7 @@ const SkillText = () => {
         variants={slideInFromRight(0.5)}
         className="font-serif tracking-wider text-3xl text-gray-600 mb-6 text-center"
       >
-        It's the possibility of having a dream come true that makes life
+        It&apos;s the possibility of having a dream come true that makes life
         interesting. - Paulo Coelho
       </motion.div>
     </div>

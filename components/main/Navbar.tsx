@@ -11,16 +11,8 @@ const Navbar = () => {
           href="#about-me"
           className="h-auto w-auto flex flex-row items-center"
         >
-          <Image
-            src="/NavLogo.png"
-            alt="logo"
-            width={70}
-            height={60}
-            className="cursor-pointer hover:animate-slowspin "
-          />
-
-          <span className="font-bold ml-[10px] hidden md:block text-gray-200 text-2xl">
-            Ajit Rawat
+          <span className="font-bold ml-[25px] hidden md:block text-2xl text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+            {"  "} Ajit Rawat
           </span>
         </a>
         <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">

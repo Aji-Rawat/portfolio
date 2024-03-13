@@ -11,17 +11,19 @@ interface Props {
 const ProjectCard = ({ src, title, description, githubLink }: Props) => {
   return (
     <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]">
-      <Image
-        src={src}
-        alt={title}
-        width={1000}
-        height={1000}
-        className="w-full object-contain"
-        aria-label={`Image for ${title}`}
-      />
-      <div className="relative p-4">
+      <div className="relative overflow-hidden transition-transform duration-300 transform hover:scale-105">
+        <Image
+          src={src}
+          alt={title}
+          width={1000}
+          height={1000}
+          className="w-full object-contain"
+          aria-label={`Image for ${title}`}
+        />
+      </div>
+      <div className="relative p-4 ">
         <h1 className="text-2xl font-semibold text-white">{title}</h1>
-        <p className="mt-2 text-gray-300">{description}</p>
+        <p className="mt-2 mb-4 text-gray-300">{description}</p>
         <Link
           href={githubLink}
           target="_blank"

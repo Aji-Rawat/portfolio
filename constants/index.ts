@@ -204,9 +204,9 @@ export const Socials = [
     link: "https://www.github.com/Aji-Rawat",
   },
   {
-    name: "Facebook",
-    src: "/facebook.svg",
-    link: "http://www.facebook",
+    name: "linkedIn",
+    src: "/linkedin.svg",
+    link: "https://www.linkedin.com/in/Aji-Rawat",
   },
   {
     name: "Discord",
@@ -214,8 +214,8 @@ export const Socials = [
     link: "https://discord.com",
   },
   {
-    name: "linkedIn",
-    src: "/linkedin.svg",
-    link: "https://www.linkedin.com/in/Aji-Rawat",
+    name: "Twitter",
+    src: "/x.svg",
+    link: "http://www.x.com",
   },
 ];

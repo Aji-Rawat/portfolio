@@ -16,7 +16,7 @@ const SkillText = () => {
         className="Welcome-box py-[8px] px-[7px] border-[#704f88b] opacity-[0.9]"
       >
         <SparklesIcon className="text-[#dad1f5] mr-[10px] h-8 w-8" />
-        <h1 className="Welcome-text text-3xl text-[13px]">
+        <h1 className="Welcome-text text-3xl text-[18px]">
           Building tomorrow's technology, today.
         </h1>
       </motion.div>

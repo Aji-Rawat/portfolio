@@ -71,16 +71,17 @@ html {
 
 /* Button styles */
 .project-card-link {
-  display: inline-block !important;
-  margin-top: 1rem !important;
-  padding: 0.5rem 1rem !important;
-  background-color: #3b82f6 !important;
+  position: relative;
+  display: inline-block;
+  margin-top: auto;
+  padding: 0.2rem 0.5rem;
+  background-color: #3481fc;
   z-index: 1;
-  color: #fff !important;
-  border-radius: 0.25rem !important;
-  transition: background-color 0.3s ease !important;
+  color: #fff;
+  border-radius: 1rem;
+  transition: background-color 0.5s ease;
 }
 
 .project-card-link:hover {
-  background-color: #2563eb !important;
+  background-color: #2563eb;
 }

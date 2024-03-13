@@ -16,10 +16,10 @@ const Navbar = () => {
             alt="logo"
             width={70}
             height={60}
-            className="cursor-pointer hover:animate-slowspin"
+            className="cursor-pointer hover:animate-slowspin "
           />
 
-          <span className="font-bold ml-[10px] hidden md:block text-gray-300">
+          <span className="font-bold ml-[10px] hidden md:block text-gray-200 text-2xl">
             Ajit Rawat
           </span>
         </a>
@@ -33,6 +33,13 @@ const Navbar = () => {
             </a>
             <a href="#projects" className="cursor-pointer">
               Projects
+            </a>
+            <a
+              href="https://drive.google.com/file/d/1HYMYtWI_XCCWicOlGNROHrEBbuotS7-l/view?usp=drive_link"
+              className="cursor-pointer"
+              target="_blank"
+            >
+              Resume
             </a>
           </div>
         </div>

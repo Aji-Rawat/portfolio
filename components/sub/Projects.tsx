@@ -21,19 +21,19 @@ const Projects = () => {
             src="/Compiler.png"
             title="Online Code Compiler"
             description="A web-application using MERN stack for code execution in the browser, that instantly displays the output."
-            githubLink="https://github.com/Aji-Rawat"
+            githubLink="https://github.com/Aji-Rawat/online-code.git"
           />
           <ProjectCard
             src="/AttendanceSystem.png"
             title="Attendance System"
             description="Attendance system using Face-Recognition library of Python that can identify the students and mark their attendance in real time."
-            githubLink="https://github.com/Aji-Rawat"
+            githubLink="https://github.com/Aji-Rawat/Attendance-System.git"
           />
           <ProjectCard
             src="/neetEstimator.png"
             title="Prediction model NEET"
             description="Estimation model for NEET UG exam preparation, utilizing NLP to analyze previous year's question papers."
-            githubLink="https://github.com/Aji-Rawat"
+            githubLink="https://github.com/Aji-Rawat/NEET-prediction-model.git"
           />
         </div>
       </div>

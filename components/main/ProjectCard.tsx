@@ -11,7 +11,7 @@ interface Props {
 const ProjectCard = ({ src, title, description, githubLink }: Props) => {
   return (
     <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]">
-      <div className="relative overflow-hidden transition-transform duration-300 transform hover:scale-105">
+      <div className="relative overflow-hidden transition-transform duration-300 transform hover:scale-110">
         <Image
           src={src}
           alt={title}
@@ -28,7 +28,7 @@ const ProjectCard = ({ src, title, description, githubLink }: Props) => {
           href={githubLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="project-card-link "
+          className="project-card-link"
           aria-label={`View ${title} project on GitHub`}
         >
           See more
